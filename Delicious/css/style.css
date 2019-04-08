@@ -6,11 +6,11 @@
 */
 
 body {
-	font-size: 15px;
+	font-size: 16px;
     line-height: 1.52;
     color: #717f86;
     font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Courgette', cursive;
     font-weight: 400;
     overflow-x: hidden;
 }
@@ -30,32 +30,32 @@ table {
 	border-spacing: 0;
 }
 #banner{
-    background: url(../img/banner-bg.jpg) no-repeat center top;
+    background: url(https://files.guidedanmark.org/files/483/164930_Street-Food.jpg?qfix) no-repeat center top;
     background-size: cover;
     min-height: 630px;
 }
 .bg-color{
-    background-color: RGBA(0, 0, 0, 0.61);
+    background-color: RGBA(176, 196, 222, 0.60);
     min-height: 630px;
 }
 #banner h2{
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'Courgette', cursive;
     font-size: 45px;
-    color: #FFB03B;
+    color: #663399;
 }
 #banner p{
     font-family: 'PT Sans', sans-serif;
-    color: #fcfcfc;
+    color: #663399;
     font-size: 34px;
 }
 .section-padding{
     padding: 60px 0px;
 }
 .logo-name{
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'Courgette', cursive;
     font-size: 65px;
     margin-top: 140px;
-    color: #FFB03B;
+    color: #663399;
 }
 .sidenav {
     height: 100%;
@@ -64,7 +64,7 @@ table {
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #111;
+    background-color: #B0C4DE;
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
@@ -73,7 +73,7 @@ table {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #663399;
     display: block;
     transition: 0.3s
 }
@@ -100,13 +100,13 @@ table {
 }
 
 .header-h {
-    color: #FFB03B;
+    color: #663399;
     font-size: 46px;
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'Courgette', cursive;
     font-weight: 300;
 }
 .header-p {
-    color: #9699a6;
+    color: #B0C4DE;
     font-size: 16px;
 }
 .msg-row {
@@ -116,7 +116,7 @@ table {
     display: table-cell;
     vertical-align: top;
 }
-.bg-13 {background-color: #f04e4e;
+.bg-13 {background-color: #663399;
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -129,7 +129,7 @@ table {
     margin-top: 18px;
 }
 .bg-1 {
-    background-color: #fecc17;
+    background-color: #f1f1f1;
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -204,7 +204,7 @@ table {
     height: 54px;
     border-radius: 3px;
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Kalam', cursive;
     font-weight: normal;
     text-transform: capitalize;
     border: 0px;
@@ -247,12 +247,12 @@ table {
 {
     font-size: 35px;
     line-height: 70px;
-    color: rgb(255, 255, 255);
+    color: rgb(200, 100, 200);
 }
 
 
 .heading{
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'Courgette', cursive;
     color: #FFB03B;
     font-size: 24px;
 }
@@ -295,7 +295,7 @@ table {
     color: #FFB03B;
     font-size: 32px;
     padding-bottom: 15px;
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'Courgette', cursive;
 }
 .content-holder address strong {
     color: #FFB03B;
@@ -310,7 +310,7 @@ table {
 .btn-read-more {
     background: #FFB03B;
     padding: 7px 19px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Kalam', cursive;
     font-size: 12px;
     line-height: 17px;
     font-weight: 400;
@@ -335,15 +335,15 @@ table {
 }
 .menu-restaurant .menu-title {
     float: left;
-    font-family: Montserrat,arial;
+    font-family: 'Kalam', cursive;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FFB03B;
+    color: #663399;
 }
 .menu-restaurant .menu-line {
     position: absolute;
     bottom: 6px;
-    border-bottom: 1px dotted rgba(0,0,0,.3);
+    border-bottom: 1px dotted rgba(0, 0, 0, .3);
     margin-left: .6rem;
     margin-right: .6rem;
 }
@@ -356,7 +356,7 @@ table {
 .menu-restaurant .menu-subtitle {
     display: block;
     float: left;
-    color: #B1B1B1;
+    color: #B0C4DE;
     font-family: Satisfy,'Open Sans',arial;
     font-size: 1.2rem;
 }
@@ -366,7 +366,7 @@ table {
 }
 
 #menu-flters ul li a.active, #menu-flters ul li a:hover {
-    background: #FFB03B;
+    background: #000000;
     color: #fff;
     border: 1px solid #FFB03B;
 }
@@ -380,7 +380,7 @@ table {
 #menu-flters ul li a {
     padding: 10px 20px;
     font-size: 14px;
-    color: #565656;
+    color: #663399;
     border-radius: 0px;
     border: 1px solid #BBBBBB;
     text-decoration: none;
@@ -389,7 +389,7 @@ table {
 
 .footer {
     width: 100%;
-    background-color: #222;
+    background-color: #B0C4DE;
     position: relative;
     z-index: 1;
 }
@@ -409,9 +409,9 @@ table {
 }
 .footer .widget-title{
     padding-bottom: 20px;
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'Courgette', cursive;
     font-size: 44px;
-    color: #FFB03B;
+    color: #663399;
 }
 .footer .widget, .footer address {
     color: #999;
